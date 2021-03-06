@@ -6,14 +6,24 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx live-server src/"
   },
-  "author": "",
+  "author": "Renato Palladino",
   "license": "ISC",
   "Devdependencies": {
     "live-server": "^1.2.1"
   },
-  "dependencies": {
-    "live-server": "^1.2.1"
-  },
   "devDependencies": {},
-  "description": ""
+  "description": "Homepage for Lorac Monitoring and techonology solutions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Palladino94/studion.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/Palladino94/studion/issues"
+  },
+  "homepage": "https://github.com/Palladino94/studion#readme"
 }
