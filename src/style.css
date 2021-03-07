@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
+/* alterações dos border's block*/
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #FF8C00;
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+/*body {
+    background-color: coral;
+}
+
+ quando é . = classe */
+
+body {
+    margin: 0;
+    padding-left: 7.75rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/* 1 rem = 16px */
+
+.navbar {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    top: 0;
+    left: 0;
+    
+    width: 100vw;
+    height: 7.75rem;
+    padding: 0 1rem;
+    
+    background-color: #696969;/*  cinza escuro  / cinza / laranja /transparência - 0 -F (hexdec)*/
+    color: #fff;
+}
+
+.navbar__links {
+    justify-self: end;
+}
+
+.navbar__links li {
+    font-size: 0.875rem;
+    margin-right: 3rem;
+    text-transform: uppercase;
+}
+
+.navbar__links a {
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar__links a.active {
+    color: var(--color-primary);
+  }
+
+.navbar__links a:hover {
+    color: var(--color-primary);
+    
+}
+
+.logo--lorac{
+    font-size: 2.375rem;
+    font-weight: 900;
+    line-height: 1ch; /*tamanho da altura do glifo 0 da fonte*/;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.logo--lorac__subtitle {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 300;
+
+}
+
+.logo--lorac a {
+    text-decoration: none;
+    color: white;
+}
+
+.copy--primary {
+    color: var(--color-primary)
+}
